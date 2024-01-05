@@ -1,29 +1,14 @@
-[
-  {
-    "name": "Organization Name 1",
-    "nodes": "3",
-    "cname": "Channel Name 1",
-    "domain": "Organization Name 1",
-    "message": "10",
-    "actualbytes": "1038723",
-    "prefferedbytes": "524288"
-  },
-  {
-    "name": "Organization Name 2",
-    "nodes": "4",
-    "cname": "Channel Name 2",
-    "domain": "Organization Name 2",
-    "message": "11",
-    "actualbytes": "4838723",
-    "prefferedbytes": "684288"
-  },
-  {
-    "name": "Organization Name 3",
-    "nodes": "5",
-    "cname": "Channel Name 3",
-    "domain": "Organization Name 3",
-    "message": "12",
-    "actualbytes": "298723",
-    "prefferedbytes": "545288"
-  }
-]
+{
+  "orders": [
+    {
+      "name": "Organization Name 1",
+      "nodes": "3",
+      "cname": "Channel Name 1",
+      "domain": "Organization Name 1",
+      "message": "10",
+      "actualbytes": "1038723",
+      "prefferedbytes": "524288",
+      "id": 1
+    }
+  ]
+}
