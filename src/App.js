@@ -10,7 +10,7 @@ function App() {
   const [formData, setFormData] = useState(null);
 
   useEffect(() => {
-      axios.get('http://localhost:3030/orders')
+      axios.get('https://orders-sa3q.onrender.com/orders')
           .then(res => {
               setRecord(res.data)
           })

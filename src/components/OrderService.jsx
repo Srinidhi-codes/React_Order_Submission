@@ -44,7 +44,7 @@ function OrderService({ setFormData }) {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        axios.post('http://localhost:3030/orders', inputData)
+        axios.post('https://orders-sa3q.onrender.com/orders', inputData)
             .then(res => {
                 alert("Submitted data successfully view data in Home Page")
                 navigate("/");
